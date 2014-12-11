@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\SpriteBase.cs" />
+     <Compile Include="Assets\Scripts\LevelBuilder.cs" />
+     <Compile Include="Assets\Scripts\SpriteAnimCon.cs" />
+     <Compile Include="Assets\Scripts\SpriteBase.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

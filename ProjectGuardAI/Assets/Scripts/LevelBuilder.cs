@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SpriteBase : MonoBehaviour {
+public class LevelBuilder : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
