@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GuardSprite.cs" />
      <Compile Include="Assets\Scripts\LevelBuilder.cs" />
+     <Compile Include="Assets\Scripts\PlayerSprite.cs" />
      <Compile Include="Assets\Scripts\SpriteAnimCon.cs" />
      <Compile Include="Assets\Scripts\SpriteBase.cs" />
  <Reference Include="UnityEngine.UI">

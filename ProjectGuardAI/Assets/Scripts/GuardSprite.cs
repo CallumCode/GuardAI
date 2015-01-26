@@ -13,8 +13,6 @@ public class GuardSprite : SpriteBase
     public override void Init()
     {
         base.Init();
-
-
     }
 
 	// Update is called once per frame

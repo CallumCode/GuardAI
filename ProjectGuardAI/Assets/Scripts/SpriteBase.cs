@@ -21,7 +21,7 @@ public class SpriteBase : MonoBehaviour
     protected float health = maxHealth;
 
     public  float force = 100;
-    float rotateSpeed = 20;
+    public float rotateSpeed = 20;
 
     SpriteAnimCon spriteAnimCon;
 
