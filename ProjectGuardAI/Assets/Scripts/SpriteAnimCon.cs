@@ -30,8 +30,9 @@ public class SpriteAnimCon : MonoBehaviour
         length = anim.GetCurrentAnimationClipState(0).Length;
 
         return length;
-    }   
+    }
 
+ 
 
 
 }

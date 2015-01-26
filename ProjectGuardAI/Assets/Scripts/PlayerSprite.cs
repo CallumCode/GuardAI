@@ -49,6 +49,16 @@ public class PlayerSprite : SpriteBase
             transform.rigidbody2D.AddForce(transform.up * actualForce);
         }
 
+        if (Input.GetKey(KeyCode.S))
+        {
+            // 
+            t = rigidbody2D.velocity.magnitude / maxVelmag;
+            t = Mathf.Clamp01(t);
+            float actualForce = Mathf.Lerp(force, 0, t);
+            transform.rigidbody2D.AddForce(-transform.up * actualForce);
+        }
+
+
 
         if (Input.GetKey(KeyCode.A))
         {

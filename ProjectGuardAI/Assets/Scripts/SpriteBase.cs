@@ -11,8 +11,8 @@ public class SpriteBase : MonoBehaviour
     public GameObject canvasPrefab;
     public GameObject hpSliderPrefab;
 
-    GameObject canvasObject;
-    GameObject hpSliderObject;
+    protected GameObject canvasObject;
+    protected GameObject hpSliderObject;
 
     public Vector3 canvasOffset = new Vector3(0, 1, 0);
     protected Slider healthSlider;
@@ -26,9 +26,6 @@ public class SpriteBase : MonoBehaviour
     SpriteAnimCon spriteAnimCon;
 
     protected AudioSource deathSound;
-
-
-
 
     // Use this for initialization
     void Start()
