@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\FogOfWar.cs" />
      <Compile Include="Assets\Scripts\GuardSight.cs" />
      <Compile Include="Assets\Scripts\GuardSprite.cs" />
      <Compile Include="Assets\Scripts\LevelBuilder.cs" />
@@ -53,6 +54,7 @@
      <Compile Include="Assets\Scripts\Speach.cs" />
      <Compile Include="Assets\Scripts\SpriteAnimCon.cs" />
      <Compile Include="Assets\Scripts\SpriteBase.cs" />
+     <None Include="Assets\Shaders\FogOfWar.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
